@@ -1,6 +1,6 @@
 {
   "name": "convertible-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert 12-hour time string to 24-hour time and vice versa with flexible formatting.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

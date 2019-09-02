@@ -22,7 +22,6 @@ const addLeadingZero = (time: Hours | Minutes): string => {
   return `${time}`;
 };
 
-
 export const customTimeFormat = ({ hours, minutes, period }: TimeComponents, desiredFormat: string): string => {
   // => /hh/gi means all occurence of hh (/g) regardless of the casing (/i)
   let time = desiredFormat
