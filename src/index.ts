@@ -8,7 +8,7 @@ import {
   getTimePeriodFrom24HourTime,
 } from './utils';
 
-const convertTime = (time: string, options?: ConvertTimeOptions): string | undefined => {
+export const convertTime = (time: string, options?: ConvertTimeOptions): string | undefined => {
   try {
     if (typeof time !== 'string') {
       return undefined;
