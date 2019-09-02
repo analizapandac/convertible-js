@@ -49,7 +49,7 @@ Converts 12-hour time string to 24-hour time and vice versa.
 
 ```js
 // CommonJS
-// var convertTime = require('convertible-js');
+// var convertTime = require('convertible-js').default;
 
 // ES2015
 import convertTime from 'convertible-js';
